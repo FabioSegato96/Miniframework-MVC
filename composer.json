@@ -1,0 +1,20 @@
+{
+
+"name" : "miniframeword",
+"require" : {
+	"php" : ">= 7.0"
+},
+"authors": [
+	{
+		"name" : "Fabio Segato",
+		"email" : "fabiosegatofilho@gmail.com"
+	}
+],
+"autoload": {
+	"psr-4": {
+		"App\\": "App/",
+		"MF\\": "vendor/MF/"
+	}
+}
+
+}
